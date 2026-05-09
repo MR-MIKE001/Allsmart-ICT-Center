@@ -1,6 +1,5 @@
 import { NavLink, Link } from 'react-router-dom'
 import { cn } from '@/utils/cn'
-import { useScrolled } from '@/hooks/useScrolled'
 import { useNavMenu } from '@/hooks/useNavMenu'
 import { Button } from '@/components/ui/Button'
 import { NAV_LINKS } from '@/data/navigation'
@@ -16,15 +15,13 @@ function HamburgerIcon({ isOpen }) {
 }
 
 export function Navbar() {
-  const scrolled = useScrolled(24)
+
   const { isOpen, toggle, close } = useNavMenu()
 
   return (
     <nav className={cn(
-      'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-      scrolled
-        ? 'bg-navy-900/95 nav-blur border-b border-navy-400/20 shadow-nav py-3'
-        : 'bg-transparent py-4'
+      'fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent py-4',
+   
     )}>
       <div className="section-wrapper flex items-center justify-between">
 
