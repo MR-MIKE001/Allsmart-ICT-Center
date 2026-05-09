@@ -1,0 +1,6 @@
+export { HeroIllustration } from './HeroIllustration'
+export { DashboardIllustration } from './DashboardIllustration'
+export { NetworkIllustration } from './NetworkIllustration'
+export { TrainingIllustration } from './TrainingIllustration'
+export { MapIllustration } from './MapIllustration'
+export { TeamIllustration } from './TeamIllustration'
