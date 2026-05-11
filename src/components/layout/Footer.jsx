@@ -88,16 +88,21 @@ export function Footer() {
             <h4 className="font-display font-bold text-white text-xs tracking-[0.12em] uppercase mb-4">Contact</h4>
             <ul className="space-y-2.5 mb-5">
               <li>
-                <a href="mailto:info@allsmarttechhub.com" className="text-sm text-slate-500 hover:text-cyan transition-colors duration-200">
-                  info@allsmarttechhub.com
+                <a href="mailto: info@Allsmarttechhub.com" className="text-sm text-slate-500 hover:text-cyan transition-colors duration-200">
+                  info@Allsmarttechhub.com
                 </a>
               </li>
               <li>
-                <a href="tel:+234XXXXXXXXXX" className="text-sm text-slate-500 hover:text-cyan transition-colors duration-200">
-                  +234 XXX XXX XXXX
+                <a href="tel:+2349060860993" className="text-sm text-slate-500 hover:text-cyan transition-colors duration-200">
+                  +234 906 086 0993
                 </a>
               </li>
-              <li><span className="text-sm text-slate-500">Lagos, Nigeria</span></li>
+              <li>
+                <a href="tel:+2349123090987" className="text-sm text-slate-500 hover:text-cyan transition-colors duration-200">
+                  +234 912 309 0987
+                </a>
+              </li>
+              <li><span className="text-sm text-slate-500">No 80 School Road By Asa Road, 2nd Floor, Mtn Building, Opp CKC Aba, Abia State, Nigeria</span></li>
             </ul>
             <div className="text-xs text-slate-600 space-y-1 leading-relaxed">
               <p>Mon – Fri: 8:00 AM – 6:00 PM</p>
@@ -112,7 +117,7 @@ export function Footer() {
       <div className="border-t border-navy-400/15">
         <div className="section-wrapper py-4 text-center">
           <p className="text-xs text-slate-600">
-            © {year} Allsmart Tech Hub. All rights reserved. — Lagos, Nigeria.
+            © {year} Allsmart Tech Hub. All rights reserved. — Abia State, Nigeria.
           </p>
         </div>
       </div>

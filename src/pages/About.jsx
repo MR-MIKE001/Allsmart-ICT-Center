@@ -4,6 +4,8 @@ import { ValueCard } from '@/components/ui/Card'
 import { PageHero } from '@/components/layout/PageHero'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { NetworkIllustration, TeamIllustration } from '@/components/illustrations'
+import { TeamCard } from '../components/cards/TeamCard'
+import teamMembers  from '../data/teamMembers'
 
 const VALUES = [
   { icon: '💡', title: 'Innovation', description: 'We embrace modern technology and creative thinking to deliver forward-looking solutions that keep our clients ahead.' },
@@ -140,8 +142,8 @@ export default function About() {
             centered
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-12 max-w-3xl mx-auto">
-            {VALUES.map(v => (
-              <ValueCard key={v.title} icon={v.icon} title={v.title} description={v.description} />
+            {teamMembers.map(v => (
+              <TeamCard key={v.name} image={v.image} name={v.name} role={v.role} description={v.description} />
             ))}
           </div>
         </div>
