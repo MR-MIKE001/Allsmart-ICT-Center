@@ -20,7 +20,7 @@ export function MapIllustration() {
       {/* Nigeria simplified outline */}
       <path d="M178 76 Q198 66 238 71 Q268 74 288 86 Q308 101 313 126 Q318 151 303 171 Q288 191 268 201 Q248 211 228 206 Q208 201 193 186 Q173 171 168 151 Q161 126 168 106 Q173 91 178 76 Z"
         fill="#1e6fbc" opacity="0.13" stroke="#1e6fbc" strokeWidth="1.4" strokeOpacity="0.45" />
-      {/* Lagos pin pulse */}
+      {/* Abia pin pulse */}
       <circle cx="213" cy="166" r="13" fill="#00d4ff" opacity="0.22">
         <animate attributeName="r" values="13;22;13" dur="2s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.22;0.04;0.22" dur="2s" repeatCount="indefinite" />
@@ -30,7 +30,7 @@ export function MapIllustration() {
       <path d="M213 158 Q218 152 213 148 Q208 152 213 158" fill="#00d4ff" />
       {/* Label */}
       <rect x="192" y="138" width="68" height="20" rx="6" fill="#0d2255" stroke="#00d4ff" strokeWidth="1" />
-      <text x="226" y="153" textAnchor="middle" fill="#00d4ff" fontSize="8.5" fontWeight="bold">LAGOS, NG</text>
+      <text x="226" y="153" textAnchor="middle" fill="#00d4ff" fontSize="8.5" fontWeight="bold">ABIA, NG</text>
       {/* Info cards */}
       <rect x="18" y="26" width="108" height="58" rx="9" fill="#0d2255" stroke="#48b9f7" strokeWidth="1" />
       <text x="72" y="48" textAnchor="middle" fill="#48b9f7" fontSize="7.5" fontWeight="600">📧 Email</text>
@@ -49,7 +49,7 @@ export function MapIllustration() {
 
       <rect x="314" y="218" width="108" height="58" rx="9" fill="#0d2255" stroke="#1e6fbc" strokeWidth="1" />
       <text x="368" y="238" textAnchor="middle" fill="#48b9f7" fontSize="7.5" fontWeight="600">📍 Address</text>
-      <text x="368" y="253" textAnchor="middle" fill="#1e6fbc" fontSize="7">Lagos, Nigeria</text>
+      <text x="368" y="253" textAnchor="middle" fill="#1e6fbc" fontSize="7">ABIA, Nigeria</text>
 
       {/* Connection lines */}
       <line x1="126" y1="55" x2="192" y2="160" stroke="#48b9f7" strokeWidth="0.7" strokeDasharray="5 4" opacity="0.35" />

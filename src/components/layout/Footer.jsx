@@ -42,7 +42,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-slate-500 leading-relaxed mb-5 max-w-[280px]">
-              Empowering the next generation of tech professionals and digital innovators across Lagos and Nigeria.
+              Empowering the next generation of tech professionals and digital innovators across Abia and Nigeria.
             </p>
             <div className="flex gap-2.5">
               {SOCIAL_LINKS.map(s => (

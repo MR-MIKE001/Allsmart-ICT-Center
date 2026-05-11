@@ -28,7 +28,9 @@ function CourseCard({ course }) {
         <span className="text-xs text-slate-600">{course.level}</span>
       </div>
       <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-bold border ${STATUS_STYLES[course.statusColor]}`}>
-        {course.status}
+       <a href='https://wa.me/9123090987' target="_blank" rel="noopener noreferrer" className="text-inherit">
+         {course.status}
+       </a>
       </span>
     </div>
   )

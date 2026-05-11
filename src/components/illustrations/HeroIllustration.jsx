@@ -65,7 +65,7 @@ export function HeroIllustration() {
       <rect x="408" y="161" width="58" height="3" rx="1.5" fill="#1e6fbc" opacity="0.25" />
 
       {/* Bottom stat pills */}
-      {[['500+', 'Clients'], ['10+', 'Services'], ['Lagos', 'Nigeria']].map(([n, l], i) => (
+      {[['500+', 'Clients'], ['10+', 'Services'], ['ABIA', 'Nigeria']].map(([n, l], i) => (
         <g key={i} transform={`translate(${96 + i * 116}, 316)`}>
           <rect x="0" y="0" width="96" height="38" rx="8" fill="#0d2255" stroke="#1e6fbc" strokeWidth="1" />
           <text x="48" y="16" textAnchor="middle" fill="#00d4ff" fontSize="11" fontWeight="bold">{n}</text>

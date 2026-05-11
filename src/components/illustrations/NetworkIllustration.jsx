@@ -37,7 +37,7 @@ export function NetworkIllustration() {
         <animate attributeName="opacity" values="0.2;0.04;0.2" dur="3s" repeatCount="indefinite" />
       </circle>
       <text x="28" y="28" fill="#1e6fbc" fontSize="9" opacity="0.5" fontFamily="monospace">ALLSMART TECH HUB</text>
-      <text x="28" y="386" fill="#1e6fbc" fontSize="9" opacity="0.5" fontFamily="monospace">LAGOS, NIGERIA</text>
+      <text x="28" y="386" fill="#1e6fbc" fontSize="9" opacity="0.5" fontFamily="monospace">ABIA, NIGERIA</text>
     </svg>
   )
 }

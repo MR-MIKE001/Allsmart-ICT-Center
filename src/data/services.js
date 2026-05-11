@@ -101,7 +101,7 @@ export const SERVICES = [
     id: 'solar-cctv',
     title: 'Solar & CCTV',
     shortDesc: 'Reliable solar energy systems and CCTV security solutions professionally installed for any property.',
-    fullDesc: 'Reliable installation services for solar power systems and CCTV security solutions. We design and install energy and security infrastructure for homes, offices, and commercial properties across Lagos.',
+    fullDesc: 'Reliable installation services for solar power systems and CCTV security solutions. We design and install energy and security infrastructure for homes, offices, and commercial properties across Abia.',
     items: [
       'Solar Panel Design & Installation',
       'CCTV System Configuration',

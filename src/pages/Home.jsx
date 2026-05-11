@@ -34,7 +34,7 @@ export default function Home() {
           {/* Text */}
           <div className="animate-fade-up">
             <div className="mb-5">
-              <Badge>Lagos, Nigeria — Leading Tech Hub</Badge>
+              <Badge>Abia, Nigeria — Leading Tech Hub</Badge>
             </div>
             <h1 className="font-display font-bold text-5xl md:text-6xl text-white leading-[1.07] mb-5">
               Empowering Businesses Through{' '}

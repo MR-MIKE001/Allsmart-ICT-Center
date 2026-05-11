@@ -73,7 +73,7 @@ export function HeroIllustration() {
       <rect x="410" y="165" width="60" height="4" rx="2" fill="#1e6fbc" opacity="0.3"/>
 
       {/* Bottom pill stats */}
-      {[["500+","Clients"],["10+","Services"],["Lagos","Nigeria"]].map(([n,l],i)=>(
+      {[["500+","Clients"],["10+","Services"],["ABIA","Nigeria"]].map(([n,l],i)=>(
         <g key={i} transform={`translate(${95+i*120},320)`}>
           <rect x="0" y="0" width="100" height="40" rx="8" fill="#0d2255" stroke="#1e6fbc" strokeWidth="1"/>
           <text x="50" y="16" textAnchor="middle" fill="#00d4ff" fontSize="12" fontWeight="bold">{n}</text>
@@ -145,7 +145,7 @@ export function AboutIllustration() {
 
       {/* Corner labels */}
       <text x="30" y="30" fill="#1e6fbc" fontSize="10" opacity="0.6" fontFamily="monospace">ALLSMART TECH HUB</text>
-      <text x="30" y="385" fill="#1e6fbc" fontSize="10" opacity="0.6" fontFamily="monospace">LAGOS, NIGERIA</text>
+      <text x="30" y="385" fill="#1e6fbc" fontSize="10" opacity="0.6" fontFamily="monospace">ABIA, NIGERIA</text>
     </svg>
   );
 }
@@ -340,7 +340,7 @@ export function ContactIllustration() {
       <path d="M180 80 Q200 70 240 75 Q270 78 290 90 Q310 105 315 130 Q320 155 305 175 Q290 195 270 205 Q250 215 230 210 Q210 205 195 190 Q175 175 170 155 Q163 130 170 110 Q175 95 180 80 Z"
         fill="#1e6fbc" opacity="0.15" stroke="#1e6fbc" strokeWidth="1.5" strokeOpacity="0.5"/>
 
-      {/* Lagos pin */}
+      {/* Abia pin */}
       <circle cx="215" cy="170" r="14" fill="#00d4ff" opacity="0.25">
         <animate attributeName="r" values="14;22;14" dur="2s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.25;0.05;0.25" dur="2s" repeatCount="indefinite"/>
@@ -352,7 +352,7 @@ export function ContactIllustration() {
 
       {/* Label */}
       <rect x="195" y="142" width="70" height="22" rx="6" fill="#0d2255" stroke="#00d4ff" strokeWidth="1"/>
-      <text x="230" y="157" textAnchor="middle" fill="#00d4ff" fontSize="9" fontWeight="bold">LAGOS, NG</text>
+      <text x="230" y="157" textAnchor="middle" fill="#00d4ff" fontSize="9" fontWeight="bold">ABIA, NG</text>
 
       {/* Contact cards */}
       <rect x="20" y="30" width="110" height="60" rx="10" fill="#0d2255" stroke="#48b9f7" strokeWidth="1"/>
@@ -372,7 +372,7 @@ export function ContactIllustration() {
 
       <rect x="310" y="220" width="110" height="60" rx="10" fill="#0d2255" stroke="#1e6fbc" strokeWidth="1"/>
       <text x="365" y="242" textAnchor="middle" fill="#48b9f7" fontSize="8" fontWeight="600">📍 Address</text>
-      <text x="365" y="257" textAnchor="middle" fill="#1e6fbc" fontSize="7.5">Lagos, Nigeria</text>
+      <text x="365" y="257" textAnchor="middle" fill="#1e6fbc" fontSize="7.5">ABIA, Nigeria</text>
 
       {/* Connection lines */}
       <line x1="130" y1="60" x2="195" y2="165" stroke="#48b9f7" strokeWidth="0.8" strokeDasharray="5 4" opacity="0.4"/>
