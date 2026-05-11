@@ -7,9 +7,9 @@ import { NAV_LINKS } from '@/data/navigation'
 function HamburgerIcon({ isOpen }) {
   return (
     <div className="flex flex-col gap-[5px] w-6">
-      <span className={cn('block h-0.5 bg-slate-300 rounded transition-all duration-300', isOpen && 'rotate-45 translate-y-[7px]')} />
-      <span className={cn('block h-0.5 bg-slate-300 rounded transition-all duration-300', isOpen && 'opacity-0')} />
-      <span className={cn('block h-0.5 bg-slate-300 rounded transition-all duration-300', isOpen && '-rotate-45 -translate-y-[7px]')} />
+      <span className={cn('block h-0.5 bg-slate-600 rounded transition-all duration-300', isOpen && 'rotate-45 translate-y-[7px]')} />
+      <span className={cn('block h-0.5 bg-slate-600 rounded transition-all duration-300', isOpen && 'opacity-0')} />
+      <span className={cn('block h-0.5 bg-slate-600 rounded transition-all duration-300', isOpen && '-rotate-45 -translate-y-[7px]')} />
     </div>
   )
 }
@@ -27,8 +27,8 @@ export function Navbar() {
 
         {/* Logo */}
         <Link to="/" onClick={close} className="flex items-center gap-3 group">
-          <img src="/logo.png" alt="Allsmart Tech Hub" className="h-11 w-auto" />
-          <div className="hidden sm:block">
+          <img src="/logo.png" alt="Allsmart Tech Hub" className="h-14 w-auto" />
+          <div className="hidden sm:block mb-3">
             <div className="font-display font-bold text-white text-base leading-tight group-hover:text-cyan transition-colors duration-300">
               Allsmart
             </div>
