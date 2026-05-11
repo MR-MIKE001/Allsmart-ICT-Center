@@ -62,7 +62,7 @@ export function TeamCard({
         </span>
 
         {/* Name */}
-        <p className="text-base font-medium text-gray-900">{name}</p>
+        <p className="text-base font-medium text-gray-500">{name}</p>
 
         {/* Description */}
         <p className="text-sm text-gray-500 leading-relaxed">{displayedText}</p>
