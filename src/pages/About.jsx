@@ -4,8 +4,8 @@ import { ValueCard } from '@/components/ui/Card'
 import { PageHero } from '@/components/layout/PageHero'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { NetworkIllustration, TeamIllustration } from '@/components/illustrations'
+import teamMembers from '../data/teamMembers'
 import { TeamCard } from '../components/cards/TeamCard'
-import teamMembers  from '../data/teamMembers'
 
 const VALUES = [
   { icon: '💡', title: 'Innovation', description: 'We embrace modern technology and creative thinking to deliver forward-looking solutions that keep our clients ahead.' },
@@ -126,8 +126,12 @@ export default function About() {
             subtitle="Passionate experts combining technology knowledge with real-world business experience to deliver outstanding results."
             centered
           />
-          <div className="max-w-xl mx-auto mt-12">
-            <TeamIllustration />
+          <div className=" mx-auto mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+           {
+            teamMembers.map(v => (
+              <TeamCard key={v.name} image={v.image} name={v.name} role={v.role} description={v.description} />
+            ))
+           }
           </div>
         </div>
       </section>
@@ -142,8 +146,8 @@ export default function About() {
             centered
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-12 max-w-3xl mx-auto">
-            {teamMembers.map(v => (
-              <TeamCard key={v.name} image={v.image} name={v.name} role={v.role} description={v.description} />
+            {VALUES.map(v => (
+              <ValueCard key={v.title} icon={v.icon} title={v.title} description={v.description} />
             ))}
           </div>
         </div>
