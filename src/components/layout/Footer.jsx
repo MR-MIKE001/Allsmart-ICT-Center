@@ -35,7 +35,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-4 group">
-              <img src="/logo.png" alt="Allsmart Tech Hub" className="h-11 w-auto" />
+              <img src="/logo.png" alt="Allsmart Tech Hub" className="h-14 w-auto" />
               <div>
                 <div className="font-display font-bold text-white text-sm leading-tight">Allsmart</div>
                 <div className="text-cyan text-[9px] font-bold tracking-[0.15em] uppercase">Tech Hub</div>
