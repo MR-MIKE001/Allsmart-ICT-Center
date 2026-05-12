@@ -119,8 +119,14 @@ export function Footer() {
           <p className="text-xs text-slate-600">
             © {year} Allsmart Tech Hub. All rights reserved. — Abia State, Nigeria.
           </p>
+          <p>
+            designed and developed by <a href='https://www.swaddigitalsolutions.com' target='_blank' rel='noopener noreferrer' className="text-cyan hover:text-blue-500 transition-colors duration-200">
+              SWAD Digital Solutions Ltd
+            </a>
+          </p>
         </div>
       </div>
+
     </footer>
   )
 }
